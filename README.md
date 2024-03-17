@@ -47,3 +47,12 @@ _이텔릭_
 > 인용문을 작성하세요!
 >> 중첩된 인용문 1
 >>> 중접된 인용문 2
+
+# 인라인(inline) 코드 강조  
+CSS에서 `background` 혹은
+`background-image` 속성으로 요소에 배경 이미지를 삽입할 수 있습니다.  
+
+# 블록(block) 코드 강조
+```html
+    <a href="#" target="_blank"> google</a>
+```
