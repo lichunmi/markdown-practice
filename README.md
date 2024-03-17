@@ -69,4 +69,43 @@ $ git commit -m 'study Markdown'
 ```plaintext
 동해물과 백두산이 마르고 닳도록
 하느님이 보우하사 우리나라 만세
+```  
+# 표(Table)
+position 속성
+
+값 | 의미 | 기본값  
+--|:--:|--:
+static| 기준 없음 | O
+relative | 요소 자신 | X
+absolute | 위치 상 부모 요소 | X
+fixed | 뷰포트 | X
+```plaintext
+    값 | 의미 | 기본값  
+    --|:--:|--:
+    static| 기준 없음 | O
+    relative | 요소 자신 | X
+    absolute | 위치 상 부
+
+    왼족  중앙정렬  오른쪽
+    --|:--:|--:
+```
+
+# 원시 HTML(raw HTML)
+동해물과 <u>백두산이</u> 마르고 닳도록  
+하느님의 <span style="text-decoration: underline;">보우하사 우리나라 만세</span>
+무궁화 삼천리 화려 강산<br />
+대한 사람 대한으로 길이 보전하세
+
+```plaintext
+    링크 사용시 target="_blank" 속성도 원시 HTML을 사용하면 된다
+```
+
+# 수평선
+---
+***
+___
+```plaintext
+    ---
+    ***
+    ___
 ```
